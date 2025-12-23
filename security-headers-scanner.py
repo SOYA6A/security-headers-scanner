@@ -2,7 +2,11 @@
 # ☝️ SHEBANG: Dit au système d'utiliser Python3 pour exécuter ce fichier
 # Permet de lancer le script avec ./security_scanner.py au lieu de python security_scanner.py
 # Pour l'activer sur Mac: chmod +x security_scanner.py
+
 """
 Security Headers Scanner
 Vérifie les headers de sécurité d'un site web
 """
+# On importe les outils dont on a besoin
+import requests  # Pour faire des requêtes HTTP (va chercher le site web)
+import sys       # Pour récupérer les arguments de la ligne de commande
