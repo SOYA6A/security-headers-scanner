@@ -24,6 +24,14 @@ def scanner_site(url):
     print(f"\n🔍 Analyse de: {url}\n")
     
     try:
-        # Étape 2: On va chercher le site web
+        # Étape 2: va chercher le site web
         # C'est comme ouvrir une page dans ton navigateur
         reponse = requests.get(url, timeout=10)
+
+        # Étape 3: récupèrer les headers (en-têtes HTTP)
+        # Les headers sont des infos que le serveur nous envoie
+        headers = reponse.headers
+        
+        print("📋 Headers de sécurité trouvés:\n")
+        print("-" * 50)
+        
