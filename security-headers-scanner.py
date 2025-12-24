@@ -35,3 +35,4 @@ def scanner_site(url):
         print("📋 Headers de sécurité trouvés:\n")
         print("-" * 50)
         
+        # Étape 4: On vérifie chaque header de sécurité un par un
