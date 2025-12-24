@@ -7,6 +7,11 @@
 Security Headers Scanner
 Vérifie les headers de sécurité d'un site web
 """
-# On importe les outils dont on a besoin
+#  pour importer les outils dont on a besoin
 import requests  # Pour faire des requêtes HTTP (va chercher le site web)
 import sys       # Pour récupérer les arguments de la ligne de commande
+
+def scanner_site(url):
+    """
+    Cette fonction scanne un site web pour vérifier ses headers de sécurité
+    """
