@@ -15,3 +15,9 @@ def scanner_site(url):
     """
     Cette fonction scanne un site web pour vérifier ses headers de sécurité
     """
+
+     # Étape 1: Préparer l'URL
+    # Si l'utilisateur n'a pas mis https://, on l'ajoute
+    if not url.startswith('http'):
+        url = 'https://' + url
+    
