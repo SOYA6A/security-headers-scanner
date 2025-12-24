@@ -21,3 +21,9 @@ def scanner_site(url):
     if not url.startswith('http'):
         url = 'https://' + url
     
+    print(f"\n🔍 Analyse de: {url}\n")
+    
+    try:
+        # Étape 2: On va chercher le site web
+        # C'est comme ouvrir une page dans ton navigateur
+        reponse = requests.get(url, timeout=10)
