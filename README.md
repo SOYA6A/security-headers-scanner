@@ -1,1 +1,1 @@
-#🔒 Security Headers Scanner
+# 🔒 Security Headers Scanner
