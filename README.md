@@ -12,6 +12,7 @@ Content-Security-Policy - Protection contre les attaques XSS
 🚀 Installation
 
 1. Cloner le repository :
-
+```bash
  git clone https://github.com/ton-username/security-headers-scanner.git
 cd security-headers-scanner
+```
