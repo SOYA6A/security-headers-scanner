@@ -10,3 +10,5 @@ X-Content-Type-Options - Protection contre le MIME sniffing
 Content-Security-Policy - Protection contre les attaques XSS
 
 🚀 Installation
+
+1- Cloner le repository :
