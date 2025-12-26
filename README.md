@@ -8,3 +8,5 @@ HSTS (Strict-Transport-Security) - Force l'utilisation de HTTPS
 X-Frame-Options - Protection contre le clickjacking
 X-Content-Type-Options - Protection contre le MIME sniffing
 Content-Security-Policy - Protection contre les attaques XSS
+
+🚀 Installation
