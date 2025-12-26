@@ -11,4 +11,4 @@ Content-Security-Policy - Protection contre les attaques XSS
 
 🚀 Installation
 
-1- Cloner le repository :
+1. Cloner le repository :
