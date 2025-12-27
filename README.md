@@ -20,3 +20,7 @@ cd security-headers-scanner
 ```bash
 p install -r requirements.txt
 ```
+🛠️ Technologie utilisées 
+
+- Python 3
+- Bibliothèque requests pour les requêtes HTTP
