@@ -16,4 +16,7 @@ Ce script Python vérifie la présence des headers de sécurité essentiels sur 
  git clone https://github.com/ton-username/security-headers-scanner.git
 cd security-headers-scanner
 ```
-2. Installer les dépendances 
+2. Installer les dépendances
+```bash
+p install -r requirements.txt
+```
