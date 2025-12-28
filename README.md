@@ -26,3 +26,4 @@ p install -r requirements.txt
 - Bibliothèque requests pour les requêtes HTTP
 
 🎯 Objectifs du projet
+- Comprendre les headers de sécurité HTTP
