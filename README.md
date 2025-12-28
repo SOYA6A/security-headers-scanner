@@ -24,3 +24,5 @@ p install -r requirements.txt
 
 - Python 3
 - Bibliothèque requests pour les requêtes HTTP
+
+🎯 Objectifs du projet
