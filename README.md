@@ -27,3 +27,5 @@ p install -r requirements.txt
 
 🎯 Objectifs du projet
 - Comprendre les headers de sécurité HTTP
+- Pratiquer Python
+- 
