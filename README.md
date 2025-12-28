@@ -9,7 +9,7 @@ Ce script Python vérifie la présence des headers de sécurité essentiels sur 
 - X-Content-Type-Options: Protection contre le MIME sniffing
 - Content-Security-Policy: Protection contre les attaques XSS
 
-🚀 Installation
+### 🚀 Installation
 
 1. Cloner le repository :
 ```bash
@@ -20,12 +20,12 @@ cd security-headers-scanner
 ```bash
 p install -r requirements.txt
 ```
-🛠️ Technologie utilisées 
+### 🛠️ Technologie utilisées 
 
 - Python 3
 - Bibliothèque requests pour les requêtes HTTP
 
-🎯 Objectifs du projet
+### 🎯 Objectifs du projet
 - Comprendre les headers de sécurité HTTP
 - Pratiquer Python
 - Sensibiliser à la sécurité web
