@@ -5,11 +5,10 @@
 
 """
 Security Headers Scanner - Version Débutant
-Auteur: [Ton nom]
 Description: Vérifie si un site web a les headers de sécurité importants
 """
 
-# On importe les outils dont on a besoin
+# importer les outils dont on a besoin
 import requests  # Pour faire des requêtes HTTP (va chercher le site web)
 import sys       # Pour récupérer les arguments de la ligne de commande
 
@@ -18,7 +17,7 @@ def scanner_site(url):
     Cette fonction scanne un site web pour vérifier ses headers de sécurité
     """
     
-    # Étape 1: Préparer l'URL
+    # first 1: Préparer l'URL
     # Si l'utilisateur n'a pas mis https://, on l'ajoute
     if not url.startswith('http'):
         url = 'https://' + url
@@ -26,11 +25,11 @@ def scanner_site(url):
     print(f"\n🔍 Analyse de: {url}\n")
     
     try:
-        # Étape 2: On va chercher le site web
+        # Étape 2: chercher le site web
         # C'est comme ouvrir une page dans ton navigateur
         reponse = requests.get(url, timeout=10)
         
-        # Étape 3: On récupère les headers (en-têtes HTTP)
+        # Étape 3:  récupèrer les headers (en-têtes HTTP)
         # Les headers sont des infos que le serveur nous envoie
         headers = reponse.headers
         
@@ -67,12 +66,12 @@ def scanner_site(url):
         print("\n✨ Scan terminé !\n")
         
     except Exception as erreur:
-        # Si quelque chose ne marche pas, on affiche l'erreur
+        # Si quelque chose ne marche pas,  afficher l'erreur
         print(f"❌ Erreur: {erreur}")
 
 # Programme principal
 if __name__ == "__main__":
-    # On vérifie que l'utilisateur a donné une URL
+    # vérifier que l'utilisateur a donné une URL
     if len(sys.argv) < 2:
         print("\n📖 Comment utiliser ce script:")
         print("   python security_scanner.py <url>")
@@ -80,8 +79,8 @@ if __name__ == "__main__":
         print("   python security_scanner.py google.com\n")
         sys.exit(1)
     
-    # On récupère l'URL donnée par l'utilisateur
+    #  récupèrer l'URL donnée par l'utilisateur
     url_a_scanner = sys.argv[1]
     
-    # On lance le scan !
+    #  lancer le scan !
     scanner_site(url_a_scanner)
