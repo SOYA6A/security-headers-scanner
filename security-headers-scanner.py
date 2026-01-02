@@ -36,6 +36,10 @@ def scanner_site(url):
         print("📋 Headers de sécurité trouvés:\n")
         print("-" * 50)
         
+        # Variable pour compter les headers présents
+        score = 0
+        total_headers = 4  # On vérifie 4 headers au total
+        
         # Étape 4: On vérifie chaque header de sécurité un par un
         
         # Header 1: HSTS (force HTTPS)
