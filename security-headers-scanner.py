@@ -35,7 +35,7 @@ def scanner_site(url):
         
         print("📋 Headers de sécurité trouvés:\n")
         print("-" * 50)
-        
+
         # Variable pour compter les headers présents
         score = 0
         total_headers = 4  # On vérifie 4 headers au total
@@ -45,6 +45,7 @@ def scanner_site(url):
         # Header 1: HSTS (force HTTPS)
         if 'Strict-Transport-Security' in headers:
             print("✅ HSTS présent - Le site force HTTPS")
+            score += 1
         else:
             print("❌ HSTS manquant - Le site devrait forcer HTTPS")
         
