@@ -52,6 +52,7 @@ def scanner_site(url):
         # Header 2: Protection contre le clickjacking
         if 'X-Frame-Options' in headers:
             print("✅ X-Frame-Options présent - Protégé contre clickjacking")
+            score += 1
         else:
             print("❌ X-Frame-Options manquant - Vulnérable au clickjacking")
         
