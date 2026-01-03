@@ -59,12 +59,14 @@ def scanner_site(url):
         # Header 3: Protection MIME sniffing
         if 'X-Content-Type-Options' in headers:
             print("✅ X-Content-Type-Options présent - Protégé MIME sniffing")
+           score += 1
         else:
             print("❌ X-Content-Type-Options manquant")
         
         # Header 4: Protection XSS (attaques de script)
         if 'Content-Security-Policy' in headers:
             print("✅ CSP présent - Protégé contre les injections XSS")
+           score += 1
         else:
             print("❌ CSP manquant - Vulnérable aux attaques XSS")
         
