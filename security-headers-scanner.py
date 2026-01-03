@@ -71,6 +71,23 @@ def scanner_site(url):
             print("❌ CSP manquant - Vulnérable aux attaques XSS")
         
         print("-" * 50)
+        # calcule et affiche le score
+        pourcentage = (score / total_headers) * 100
+
+        print(f"\n📊 SCORE DE SECURITE: {score}/{total_headers} ({pourcentage:.0f}%)")
+        print("-"* 50)
+    #Message selon le niveau de sécurité
+    if pourcentage == 100:
+        
+
+
+
+
+
+
+
+
+
         print("\n✨ Scan terminé !\n")
         
     except Exception as erreur:
