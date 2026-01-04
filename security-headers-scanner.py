@@ -81,7 +81,17 @@ def scanner_site(url):
         print("\n✨ Scan terminé !\n")
 
 
-
+# Message selon le niveau de sécurité
+        if pourcentage == 100:
+            print("🟢 Excellent ! Tous les headers de sécurité sont présents.")
+        elif pourcentage >= 75:
+            print("🟡 Bon niveau de sécurité, mais quelques améliorations possibles.")
+        elif pourcentage >= 50:
+            print("🟠 Sécurité moyenne - Des headers importants manquent.")
+        else:
+            print("🔴 Sécurité faible - Action urgente requise !")
+        
+      
 
 
 
