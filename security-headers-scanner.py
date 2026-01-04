@@ -78,7 +78,7 @@ def scanner_site(url):
         print("-"* 50)
     #Message selon le niveau de sécurité
     if pourcentage == 100:
-        
+        print("\n✨ Scan terminé !\n")
 
 
 
