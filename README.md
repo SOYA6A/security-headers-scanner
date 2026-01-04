@@ -1,7 +1,6 @@
 # 🔒 Security Headers Scanner
 Un outil simple pour analyser les headers de sécurité HTTP d'un site web.
 
-🚧 **En cours de développement** : Ajout d'un système de scoring avec niveaux d'alerte (excellent/bon/moyen/faible)
 
 ### 📋 Description
 
