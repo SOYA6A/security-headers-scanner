@@ -35,4 +35,5 @@ p install -r requirements.txt
 - Pratiquer Python
 - Sensibiliser à la sécurité web
 
-<img width="1185" height="377" alt="Screenshot 2026-01-05 at 10 08 27" src="https://github.com/user-attachments/assets/a777151b-d052-4cb2-b391-3d094088e829" />
+<img width="2370" height="754" alt="image" src="https://github.com/user-attachments/assets/55102d40-ac9b-455c-a8aa-1b3bd9ffcc11" />
+
