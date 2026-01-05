@@ -36,7 +36,9 @@ p install -r requirements.txt
 - Sensibiliser à la sécurité web
 ## 📊 Exemples d'utilisation
 GitHub.com - Score : 100% 🟢
-
+```bash
+python3 security-headers-scanner.py github.com
+```
 <img width="2508" height="738" alt="image" src="https://github.com/user-attachments/assets/599abae6-b82d-43d9-9569-5a976cc3ae6b" />
 
 
