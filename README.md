@@ -34,3 +34,5 @@ p install -r requirements.txt
 - Comprendre les headers de sécurité HTTP
 - Pratiquer Python
 - Sensibiliser à la sécurité web
+
+<img width="1185" height="377" alt="Screenshot 2026-01-05 at 10 08 27" src="https://github.com/user-attachments/assets/a777151b-d052-4cb2-b391-3d094088e829" />
