@@ -52,3 +52,5 @@ python3 security-headers-scanner.py github.com
 <img width="1828" height="764" alt="image" src="https://github.com/user-attachments/assets/81557307-7525-4512-b129-b3e8a161630e" />
 
 
+
+<img width="1692" height="770" alt="image" src="https://github.com/user-attachments/assets/e409c3a4-6b9d-4cd7-a66d-b80463ed4053" />
