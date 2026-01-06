@@ -47,7 +47,8 @@ python3 security-headers-scanner.py github.com
 <img width="2598" height="762" alt="image" src="https://github.com/user-attachments/assets/92368d52-ff44-44b1-9de9-92b19bf1d50a" />
 
 
-Netflix.com - Score : 75% 🟡
+- Netflix.com - Score : 75% 🟡
+  
 <img width="1828" height="764" alt="image" src="https://github.com/user-attachments/assets/81557307-7525-4512-b129-b3e8a161630e" />
 
 
