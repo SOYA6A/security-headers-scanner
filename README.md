@@ -55,5 +55,5 @@ python3 security-headers-scanner.py github.com
   
 <img width="1692" height="770" alt="image" src="https://github.com/user-attachments/assets/e409c3a4-6b9d-4cd7-a66d-b80463ed4053" />
 
-🔍 Analyse des résultats
+## 🔍 Analyse des résultats
 Les sites tech (GitHub) ont tendance à avoir de meilleurs scores de sécurité que les sites grand public (Google, Amazon). Cela montre l'importance de la mise en place de headers de sécurité HTTP pour protéger les utilisateurs.
