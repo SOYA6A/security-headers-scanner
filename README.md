@@ -2,8 +2,8 @@
 Un outil simple pour analyser les headers de sécurité HTTP d'un site web.
 
 ### 🔄 Prochaines fonctionnalités
-- ⏳ Système de score de sécurité (0-100%)
-- ⏳ Niveaux d'alerte selon le score
+-  Système de score de sécurité (0-100%)
+-  Niveaux d'alerte selon le score
 
   ### 📋 Description
 
